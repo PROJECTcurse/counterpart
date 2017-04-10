@@ -4,10 +4,11 @@ package com.counterpart.game.items;
  * Created by augustuswadlington on 4/10/17.
  */
 
-public class Consumable implements Item {
+public class Armor implements Item {
+
     private double durability;
 
-    public Consumable(double durability){
+    public Armor(double durability) {
         this.durability = durability;
     }
 
@@ -18,7 +19,7 @@ public class Consumable implements Item {
 
     @Override
     public double getDurability() {
-        return 0;
-    }
 
+        return durability;
+    }
 }

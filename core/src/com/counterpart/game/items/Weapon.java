@@ -18,6 +18,7 @@ public class Weapon implements Item {
 
     @Override
     public double getDurability() {
+
         return durability;
     }
 
