@@ -8,7 +8,7 @@ public interface Item {
 
     void use();
 
-    double getDurability();
+    int getDurability();
 
 }
 
