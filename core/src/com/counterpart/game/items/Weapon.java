@@ -5,20 +5,19 @@ package com.counterpart.game.items;
  */
 
 public class Weapon implements Item {
-    private double durability;
+    private int durability;
 
-    public Weapon(double durability) {
+    public Weapon(int durability) {
         this.durability = durability;
     }
 
     @Override
     public void use() {
-
+        durability--;
     }
 
     @Override
-    public double getDurability() {
-
+    public int getDurability() {
         return durability;
     }
 

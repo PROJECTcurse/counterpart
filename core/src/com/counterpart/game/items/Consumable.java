@@ -5,20 +5,20 @@ package com.counterpart.game.items;
  */
 
 public class Consumable implements Item {
-    private double durability;
+    private int durability = 1;
 
-    public Consumable(double durability){
-        this.durability = durability;
+    public Consumable() {
+
     }
 
     @Override
     public void use() {
-
+        durability--;
     }
 
     @Override
-    public double getDurability() {
-        return 0;
+    public int getDurability() {
+        return durability;
     }
 
 }
