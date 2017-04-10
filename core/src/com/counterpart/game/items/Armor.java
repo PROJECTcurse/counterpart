@@ -6,9 +6,9 @@ package com.counterpart.game.items;
 
 public class Armor implements Item {
 
-    private double durability;
+    private int durability;
 
-    public Armor(double durability) {
+    public Armor(int durability) {
         this.durability = durability;
     }
 
@@ -18,7 +18,7 @@ public class Armor implements Item {
     }
 
     @Override
-    public double getDurability() {
+    public int getDurability() {
 
         return durability;
     }
