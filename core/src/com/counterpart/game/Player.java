@@ -12,6 +12,7 @@ public class Player {
     private int health;
     private int locX;
     private int locY;
+    private int level;
 
     public Player(String name, ArrayList<String> inventory, int health, int locX, int locY) //default constructor
     {
